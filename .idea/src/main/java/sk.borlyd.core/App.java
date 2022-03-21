@@ -1,0 +1,19 @@
+package sk.borlyd.core;
+
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class App {
+    public static void main(String args[]) throws Exception {
+    String path = "";
+
+    try {
+        BufferedReader br = new BufferedReader(new FileReader(path));
+    }
+    catch (FileNotFoundException e) {
+        e.printStackTrace();
+        }
+    }
+}
