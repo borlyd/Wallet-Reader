@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class App {
 
-        public static void(String args[]) throws Exception {
+        public static void main (String args[]) throws Exception {
 
             String path = "penazenka.csv";
             String line = "";
